@@ -3,7 +3,7 @@ import { CustomFeatures, CustomGuildInfo } from 'config/types/custom-types';
 import { withBot, callDefault, callReturn } from './core';
 import { ChannelTypes } from './discord';
 
-export const bot = import.meta.env.VITE_API_ENDPOINT ?? 'http://localhost:8080';
+export const bot = import.meta.env.VITE_API_ENDPOINT ?? 'https://discord-bot-dashboard-2-sand.vercel.app/';
 
 export type Role = {
   id: string;
