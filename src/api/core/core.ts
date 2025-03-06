@@ -1,5 +1,5 @@
 import { deepmerge } from 'deepmerge-ts';
-export const orgin = 'http://localhost:3000';
+export const orgin = 'https://discord-bot-dashboard-2-sand.vercel.app/';
 
 export type ReturnOptions<T> = Options & {
   /**
